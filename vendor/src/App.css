@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.container-loginSignup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: all 0.3s ease;
+
+}
+.Login-container{
+  width: 25%;
+  background-color: #03C988;
+  height: 100%;
+  transition: all 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Signup-container{
+  width: 75%;
+  background-color: #FFFF;
+  height: 100%;
+  transition: all 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fixed-logo{
+  position: absolute;
+  top: 10;
+  left: 10;
+  z-index: 2;
+  margin-top: 1rem;
+}
+.small-cont-panel{
+  width: 25%;
+  transition: all 0.6s ease;
+}
+.big-cont-panel{
+  width: 75%;
+  transition: all 0.6s ease;
+  box-shadow: 0px 0px 14px rgb(0, 0, 0,0.4);
+}
+nav{
+  background-color: #03C988;
+  padding: 1rem 0.4rem;
+  box-shadow: 0px 0px 14px rgb(0, 0, 0,0.4);
+}
+.transitionBtn{
+  padding: 0.6rem 1.2rem;
+  background-color: white;
+  color: #03C988;
+  border-radius: 25px;
+  border: 1px solid #03C988;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.6s ease;
+  margin-top: 0.5rem;
+}
+.transitionBtn.green-back{
+  background-color: #03C988;
+  color: white;
+}
+.transitionBtn.green-back:hover{
+  box-shadow: 0px 0px 70px rgba(27, 236, 27, 0.9);
+}
+.transitionBtn:hover{
+  box-shadow: 0px 0px 70px rgba(224, 234, 224, 0.9);
+}
+.panel-title{
+  font-size: 41px;
+  margin-bottom: 1rem;
+}
+.main-form input{
+  padding: 0.6rem 0.7rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  border: 1px solid #03C988;
+  margin-top: 0.6rem;
+  background-color: lightgray;
+  width: 350px;
+}
+#remembercheck{
+  width: unset;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  margin-left: 1rem;
+}
+.display-flex-space-around{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.display-flex-space-around img{
+  width: 2.4rem;
+  margin-right: 1.4rem;
+  cursor: pointer;
+}
+.center-no-users-img{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.center-no-users-img img{
+  width: 17rem;
+}
+.card{
+  margin: 0 10%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #C1B7FF;
+  padding: 1rem 1.2rem;
+  width: 80%;
+  border-radius: 10px;
+  
+}
+.card-name{
+  font-size: 28px;
+  font-weight: bold;
+}
+.openFolder-cont{
+  width: 500px;
+  min-height: 300px;
+  background-color: rgb(230, 229, 229);
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0,0.4);
+  z-index: 3;
+  padding: 1rem;
+}
+.close-btn-right-corner{
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  cursor: pointer;
+  /* background-color: red; */
+}
+.close-btn-right-corner img{
+  width: 1.5rem;
+}
+
+.card-time{
+  color: gray;
+}
+.display-flex-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.mp-up-2rem{
+  margin-top: 2rem;
+}
+.folder-btn{
+  padding: 0.23rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}

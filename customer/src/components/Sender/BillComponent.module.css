@@ -1,0 +1,22 @@
+/* BillComponent.css */
+
+.billtable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .billtable th, .billtable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .billtable th {
+    background-color: #f2f2f2;
+  }
+  
+  .billtable tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
